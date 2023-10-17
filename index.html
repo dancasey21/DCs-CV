@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dans CV</title>
+    <link
+      rel="stylesheet"
+      href="cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Roboto+Mono:ital,wght@0,600;1,200&family=Roboto:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="generics.css" />
+  </head>
+  <body>
+    <header id="section1">
+      <h1>
+        <div class="header-content">
+          <div class="header-content1">
+            <img src="dc.jpg" alt="DC Logo" />
+          </div>
+          <div class="header-content2"><ins>DC's CV</ins></div>
+
+          <div class="header-content3">
+            <nav>
+              <a href="./index.html">Home</a>
+              <a href="./aboutme.html">About Me</a>
+              <a href="./qualifications.html">Qualifications</a>
+              <a href="./interests.html">Interests</a>
+              <a href="https://linkedin.com" target="_blank">Linkedin</a>
+            </nav>
+          </div>
+        </div>
+      </h1>
+    </header>
+
+    <main>
+      <section>
+        <div class="nf-picture">
+          <img
+            src="nf.jpg"
+            alt="Picture of Singer NF"
+            srcset="nf-600.png 600w, nf-900.png 900w, nf-1280.png 1280w"
+            sizes="(max-width: 600px) 300px,
+            (max-width: 900px) 500px,
+            800px"
+          />
+        </div>
+
+        <div class="nf-mp3">
+          <audio controls>
+            <source src="./NF-Happy.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <h2 class="aboutme">
+          <b><ins>About Me</ins></b>
+        </h2>
+        <address class="address">
+          <span>99 Tommy Hilfiger Lane</span> Basildon SS14 1FH
+        </address>
+        <p class="work">
+          Working at <span><em>Unbar Rothon</em></span> Ltd as an member of the
+          Warehouse team, jobs include loading the company lorry for deliveries,
+          stock controlling ingredients, loading and unloading lorries. I have
+          also been the team leader of Production team, jobs include making sure
+          everyone has work, ordering bases for jobs to be made, making sure all
+          jobs are done ready for delivery. Also I have been cover for the
+          packing team as a team leader, which includes making sure the packing
+          team have jobs to do and make sure I get the orders to the team leader
+          of production. Also have cover the R & D
+          <mark>(Research and Development)</mark> jobs include making new
+          samples for customers and making sausages and burger for testing.
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          <b><ins>Qualifications</ins></b>
+        </h2>
+        <ul class="qualifications">
+          <li>Maths - C</li>
+          <li>English - C</li>
+          <li>Science - C C</li>
+          <li>Geography - C</li>
+          <li>French - D</li>
+          <li>IT - E</li>
+          <li>PE - C</li>
+          <li>BTEC National Certificate in Sport</li>
+          <li>British Driving License</li>
+          <li>Qualified Race Director</li>
+          <li>Level 2 Award in Food Safety in Manufacturing</li>
+          <li>Qualified Counter Balance Fork Lift Driver</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>
+          <b><ins>Interests</ins></b>
+        </h2>
+        <div class="bolton-logo">
+          <img src="bolton.jpg" alt="Bolton Wanderers FC Logo" class="bolton" />
+        </div>
+
+        <div class="interests">
+          <ol>
+            <li>
+              Football - Support Bolton Wanderers and Played
+              <strong>Semi-Pro</strong> and Sunday League
+            </li>
+            <li>Golf - Play every Saturday also a member at a golf course</li>
+            <li>Gaming - Own a PS5 and Gaming PC</li>
+          </ol>
+        </div>
+
+        <div class="container">
+          <video width="640" height="480" controls poster="tiger-woods-3.jpg">
+            <source src="./TigerWoods.mp4" type="video/mp4" />
+          </video>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9Mo7HQc2rCM?si=n7pWmITCjA-DW56B"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section>
+        <h3>
+          <div class="picture">
+            <picture>
+              <source type="image/avif" srcset="beautiful.avif" />
+
+              <source type="image/webp" srcset="beautiful.webp" />
+
+              <img src="beautiful.jpg" alt="Picture of a Mountain and River" />
+            </picture>
+          </div>
+        </h3>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023</p>
+      <a href="#section1">Back To The Top</a>
+    </footer>
+  </body>
+</html>

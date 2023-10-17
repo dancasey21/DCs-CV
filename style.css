@@ -1,0 +1,120 @@
+h2 {
+  background-color: rgb(217, 255, 0);
+  text-align: center;
+  font-size: 5vw;
+}
+
+.header-content,
+footer {
+  font-size: 2.5vw;
+  text-decoration: none;
+}
+
+.nf-picture {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  position: relative;
+  top: 100px;
+}
+
+.qualifications :nth-child(even) {
+  background-color: rgb(0, 26, 255);
+  font-size: 3ch;
+}
+.qualifications :nth-child(odd) {
+  background-color: rgb(236, 253, 2);
+  font-size: 3ch;
+}
+
+iframe {
+  border-style: solid;
+  color: rgb(0, 26, 255);
+  border-width: 4px;
+  display: block;
+  width: 50%;
+}
+
+.address,
+.work {
+  text-align: center;
+  font-size: 3ch;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+video {
+  border-style: solid;
+  color: rgb(0, 26, 255);
+  border-width: 4px;
+}
+
+.bolton-logo {
+  text-align: center;
+  width: 100%;
+}
+.bolton {
+  width: 40vw;
+  height: 30vmax;
+  margin: 10px auto;
+}
+
+.work {
+  background-image: url(backgroundimage.jpg);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 5;
+  background-color: rgb(146, 146, 146);
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.qualifications {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "roboto";
+}
+
+.header-content1 {
+  height: auto;
+  width: 12vw;
+  padding: 10px;
+  max-width: 100%;
+}
+.interests {
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+}
+
+.picture,
+.nf-mp3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nf-mp3 {
+  position: relative;
+  bottom: 70px;
+}
