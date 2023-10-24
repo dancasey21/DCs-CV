@@ -9,47 +9,52 @@
       href="cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Roboto+Mono:ital,wght@0,600;1,200&family=Roboto:ital,wght@0,300;1,300&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="generics.css" />
   </head>
   <body>
     <header id="section1">
-      <h1>
-        <div class="header-content">
-          <div class="header-content1">
-            <img src="dc.jpg" alt="DC Logo" />
-          </div>
-          <div class="header-content2"><ins>DC's CV</ins></div>
+      <div class="header-content">
+        <h1>
+          <div class="header-content1"><ins>DC's CV</ins></div>
+        </h1>
 
-          <div class="header-content3">
-            <nav>
-              <a href="./index.html">Home</a>
-              <a href="./aboutme.html">About Me</a>
-              <a href="./qualifications.html">Qualifications</a>
-              <a href="./interests.html">Interests</a>
-              <a href="https://linkedin.com" target="_blank">Linkedin</a>
-            </nav>
-          </div>
+        <div class="header-content2">
+          <img src="Images/dc.jpg" alt="DC Logo" />
         </div>
-      </h1>
+
+        <div class="header-content3">
+          <nav>
+            <a href="./index.html">Home</a>
+            <a href="./aboutme.html">About Me</a>
+            <a href="./qualifications.html">Qualifications</a>
+            <a href="./interests.html">Interests</a>
+            <a href="https://linkedin.com" target="_blank">Linkedin</a>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
       <section>
         <div class="nf-picture">
           <img
-            src="nf.jpg"
+            src="Images/nf.jpg"
             alt="Picture of Singer NF"
-            srcset="nf-600.png 600w, nf-900.png 900w, nf-1280.png 1280w"
+            srcset="
+              Images/nf-600.png   600w,
+              Images/nf-900.png   900w,
+              Images/nf-1280.png 1280w
+            "
             sizes="(max-width: 600px) 300px,
             (max-width: 900px) 500px,
             800px"
           />
+          <div class="overlay">
+            <a href="https://shop.nfrealmusic.com/" target="_blank"
+              >nfrealmusic.com</a
+            >
+          </div>
         </div>
 
         <div class="nf-mp3">
@@ -104,7 +109,11 @@
           <b><ins>Interests</ins></b>
         </h2>
         <div class="bolton-logo">
-          <img src="bolton.jpg" alt="Bolton Wanderers FC Logo" class="bolton" />
+          <img
+            src="Images/bolton.jpg"
+            alt="Bolton Wanderers FC Logo"
+            class="bolton"
+          />
         </div>
 
         <div class="interests">
@@ -119,7 +128,12 @@
         </div>
 
         <div class="container">
-          <video width="640" height="480" controls poster="tiger-woods-3.jpg">
+          <video
+            width="640"
+            height="480"
+            controls
+            poster="Images/tiger-woods-3.jpg"
+          >
             <source src="./TigerWoods.mp4" type="video/mp4" />
           </video>
 
@@ -138,11 +152,14 @@
         <h3>
           <div class="picture">
             <picture>
-              <source type="image/avif" srcset="beautiful.avif" />
+              <source type="image/avif" srcset="Images/beautiful.avif" />
 
-              <source type="image/webp" srcset="beautiful.webp" />
+              <source type="image/webp" srcset="images/beautiful.webp" />
 
-              <img src="beautiful.jpg" alt="Picture of a Mountain and River" />
+              <img
+                src="Images/beautiful.jpg"
+                alt="Picture of a Mountain and River"
+              />
             </picture>
           </div>
         </h3>
