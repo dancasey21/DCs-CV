@@ -13,6 +13,10 @@ html {
   src: url(oswald200.woff2);
 }
 
+.overlay {
+  display: none;
+}
+
 h1,
 h2 {
   font-family: roboto;
@@ -56,33 +60,6 @@ footer {
   position: relative;
   top: 50px;
   overflow: hidden;
-}
-
-.overlay {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  opacity: 50%;
-  transform: translateY(100%);
-  transition: all 0.5s ease-in-out;
-
-  font-size: 30px;
-  color: rgb(255, 0, 0);
-}
-
-.nf-picture:hover .overlay,
-.nf-picture:focus-within .overlay {
-  transform: translateY(0);
 }
 
 .picture,
@@ -200,9 +177,6 @@ iframe {
     height: 250px;
     width: 250px;
   }
-  .overlay {
-    font-size: 50px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -226,6 +200,28 @@ iframe {
   }
 
   .overlay {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 50%;
+    transform: translateY(100%);
+    transition: all 0.5s ease-in-out;
+
     font-size: 75px;
+    color: rgb(255, 0, 0);
+  }
+  .nf-picture:hover .overlay,
+  .nf-picture:focus-within .overlay {
+    transform: translateY(0);
   }
 }
